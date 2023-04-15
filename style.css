@@ -38,10 +38,14 @@ body {
   height: 2.5rem;
   border-radius: 0.5rem;
   margin-left: 15rem;
-}
-
-#nav-list li input::placeholder {
+  padding-left: 1rem;
   font-family: var(--var-font-family);
   font-size: 0.95rem;
-  padding-left: 1rem;
+}
+
+#nav-list li input:focus {
+  border-style: none;
+  box-shadow: -2px -2px 2px 2px #ffffff,
+    2px -2px 2px 2px #ffffff, -2px 2px 2px 2px #ffffff,
+    2px 2px 2px 2px #ffffff;
 }
