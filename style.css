@@ -23,3 +23,15 @@ body {
   width: 5rem;
   height: 2.5rem;
 }
+
+#nav-list li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+#nav-list li input {
+  width: 30rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  margin-left: 15rem;
+}
