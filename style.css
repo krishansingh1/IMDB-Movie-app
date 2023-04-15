@@ -4,4 +4,20 @@
   box-sizing: border-box;
 }
 
+:root {
+  --var-primary-color: "#ffffff";
+  --var-secondary-color: "#000000";
+}
 
+body {
+  background-color: rgb(18, 18, 18);
+}
+
+#header-container {
+  display: flex;
+}
+
+#logo-image img {
+  width: 5rem;
+  height: 2.5rem;
+}
