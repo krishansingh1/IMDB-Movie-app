@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -7,10 +9,12 @@
 :root {
   --var-primary-color: "#ffffff";
   --var-secondary-color: "#000000";
+  --var-font-family: "Roboto", sans-serif;
 }
 
 body {
   background-color: #262926;
+  font-family: var(--var-font-family);
 }
 
 #header-container {
@@ -30,8 +34,14 @@ body {
 }
 
 #nav-list li input {
-  width: 30rem;
+  width: 35rem;
   height: 2.5rem;
   border-radius: 0.5rem;
   margin-left: 15rem;
+}
+
+#nav-list li input::placeholder {
+  font-family: var(--var-font-family);
+  font-size: 1rem;
+  padding-left: 1rem;
 }
