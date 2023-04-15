@@ -42,6 +42,6 @@ body {
 
 #nav-list li input::placeholder {
   font-family: var(--var-font-family);
-  font-size: 1rem;
+  font-size: 0.95rem;
   padding-left: 1rem;
 }
