@@ -47,3 +47,7 @@ body {
   outline: none;
   box-shadow: 1px 3px 10px #ffffff;
 }
+
+#nav-list li:first-child {
+  color: white;
+}
