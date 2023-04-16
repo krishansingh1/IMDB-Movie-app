@@ -134,7 +134,7 @@ aside {
 }
 
 #aside-heading{
-  font-size: 1rem;
-  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  margin-top: 1rem;
   color: var(--var-logo-color);
 }
