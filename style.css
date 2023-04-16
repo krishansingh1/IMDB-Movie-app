@@ -54,10 +54,21 @@ body {
   box-shadow: 1px 3px 10px var(--var-primary-color);
 }
 
-#nav-list li:first-child {
+/* #nav-list li:first-child {
   position: relative;
   left: 14rem;
-  /* top: 0rem; */
+  color: var(--var-primary-color);
+  padding-top: 10px;
+  padding-bottom: -5rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+} */
+
+.nav-items {
+  position: relative;
+  left: 14rem;
   color: var(--var-primary-color);
   padding-top: 10px;
   padding-bottom: -5rem;
@@ -67,7 +78,23 @@ body {
   border-radius: 5px;
 }
 
-#nav-list li:first-child:hover {
+.nav-items:hover {
+  background-color: var(--var-gray-color);
+  cursor: pointer;
+}
+
+.nav-items2 {
+  position: relative;
+  left: 2rem;
+  color: var(--var-primary-color);
+  padding-top: 10px;
+  padding-bottom: -5rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.nav-items2:hover {
   background-color: var(--var-gray-color);
   cursor: pointer;
 }
