@@ -10,6 +10,7 @@
   --var-primary-color: #ffffff;
   --var-secondary-color: #000000;
   --var-gray-color: #595e5a;
+  --var-logo-color: rgb(245,197,24);
   --var-font-family: "Roboto", sans-serif;
 }
 
@@ -118,11 +119,11 @@ main {
   flex-wrap: wrap;
 }
 
-.movie-items {
+.movie-item {
   background-color: var(--var-gray-color);
   width: 17rem;
   height: 22rem;
-  margin-top: 2rem;
+  margin-top: 0.5rem;
 }
 
 aside {
@@ -130,4 +131,10 @@ aside {
   width: 29.7%;
   height: 100%;
   vertical-align: top;
+}
+
+#aside-heading{
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: var(--var-logo-color);
 }
