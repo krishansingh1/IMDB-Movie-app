@@ -28,6 +28,10 @@ body {
   height: 2.5rem;
 }
 
+#nav-list {
+  display: flex;
+}
+
 #nav-list li {
   text-decoration: none;
   list-style-type: none;
@@ -50,4 +54,6 @@ body {
 
 #nav-list li:first-child {
   color: white;
+  margin-top: 0.8rem;
+  font-size: 1.1rem;
 }
