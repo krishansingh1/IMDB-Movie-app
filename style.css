@@ -7,8 +7,8 @@
 }
 
 :root {
-  --var-primary-color: "#ffffff";
-  --var-secondary-color: "#000000";
+  --var-primary-color: #ffffff;
+  --var-secondary-color: #000000;
   --var-font-family: "Roboto", sans-serif;
 }
 
@@ -49,14 +49,27 @@ body {
 
 #nav-list li input:focus {
   outline: none;
-  box-shadow: 1px 3px 10px #ffffff;
+  box-shadow: 1px 3px 10px var(--var-primary-color);
 }
 
 #nav-list li:first-child {
+  position: relative;
+  left: 14rem;
   color: var(--var-primary-color);
-  margin-top: 0.8rem;
-  font-size: 1.1rem;
+  margin-top: 0.35rem;
+  font-size: 1rem;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+}
+
+#nav-list li:first-child:hover {
+  background-color: gray;
+  cursor: pointer;
 }
 
 #nav-list li span:nth-child(2) {
+  margin-left: 5px;
 }
