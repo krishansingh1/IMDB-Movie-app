@@ -110,7 +110,6 @@ main {
   display: inline-block;
   width: 70%;
   height: 100%;
-  border: 1px solid var(--var-primary-color);
 }
 
 #movie-container {
@@ -120,7 +119,6 @@ main {
 }
 
 .movie-items {
-  border: 1px solid var(--var-primary-color);
   background-color: var(--var-gray-color);
   width: 17rem;
   height: 22rem;
@@ -131,6 +129,5 @@ aside {
   display: inline-block;
   width: 29.7%;
   height: 100%;
-  border: 1px solid var(--var-primary-color);
   vertical-align: top;
 }
