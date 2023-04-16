@@ -57,7 +57,7 @@ body {
   position: relative;
   left: 14rem;
   color: var(--var-primary-color);
-  margin-top: 0.2rem;
+  margin-top: 0.1rem;
   font-size: 1rem;
   padding-top: 9px;
   padding-left: 15px;
@@ -71,5 +71,9 @@ body {
 }
 
 #nav-list li span:nth-child(2) {
+  margin-left: 8px;
+}
+
+#nav-list li:nth-child(3) {
   margin-left: 8px;
 }
