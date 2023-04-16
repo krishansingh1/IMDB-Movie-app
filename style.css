@@ -20,7 +20,7 @@ body {
 #header-container {
   display: flex;
   background-color: #161716;
-  padding: 0.5rem 2rem;
+  padding: 0.7rem 2rem;
 }
 
 #logo-image img {
@@ -44,8 +44,6 @@ body {
 }
 
 #nav-list li input:focus {
-  border-style: none;
-  box-shadow: -2px -2px 2px 2px #ffffff,
-    2px -2px 2px 2px #ffffff, -2px 2px 2px 2px #ffffff,
-    2px 2px 2px 2px #ffffff;
+  outline: none;
+  box-shadow: 1px 3px 10px #ffffff;
 }
