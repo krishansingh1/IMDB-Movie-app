@@ -129,7 +129,8 @@ main {
 
 aside {
   display: inline-block;
-  width: 29%;
+  width: 29.7%;
   height: 100%;
   border: 1px solid var(--var-primary-color);
+  vertical-align: top;
 }
