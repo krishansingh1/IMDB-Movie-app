@@ -44,6 +44,7 @@ body {
   border-radius: 0.5rem;
   margin-left: 15rem;
   padding-left: 1rem;
+  color: var(--var-gray-color);
   font-family: var(--var-font-family);
   font-size: 0.95rem;
 }
@@ -56,12 +57,13 @@ body {
 #nav-list li:first-child {
   position: relative;
   left: 14rem;
+  /* top: 0rem; */
   color: var(--var-primary-color);
-  margin-top: 0.1rem;
+  padding-top: 10px;
+  padding-bottom: -5rem;
+  padding-left: 10px;
+  padding-right: 10px;
   font-size: 1rem;
-  padding-top: 9px;
-  padding-left: 15px;
-  padding-right: 15px;
   border-radius: 5px;
 }
 
@@ -74,6 +76,8 @@ body {
   margin-left: 8px;
 }
 
-#nav-list li:nth-child(3) {
-  margin-left: 8px;
+#nav-list li:nth-child(2) span {
+  position: relative;
+  left: -2rem;
+  color: var(--var-gray-color);
 }
