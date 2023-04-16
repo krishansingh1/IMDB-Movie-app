@@ -118,7 +118,30 @@ body {
   cursor: pointer;
 }
 
+main {
+  display: inline-block;
+  width: 70%;
+  height: 100%;
+  border: 1px solid var(--var-primary-color);
+}
+
 #movie-container {
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
+}
+
+.movie-items {
+  border: 1px solid var(--var-primary-color);
+  background-color: var(--var-gray-color);
+  width: 17rem;
+  height: 22rem;
+  margin-top: 2rem;
+}
+
+aside {
+  display: inline-block;
+  width: 29%;
+  height: 100%;
+  border: 1px solid var(--var-primary-color);
 }
