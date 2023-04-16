@@ -108,3 +108,12 @@ body {
   left: -2rem;
   color: var(--var-gray-color);
 }
+
+#nav-list li:nth-child(5){
+  position: relative;
+  top: 3px;
+  left:6rem;
+  font-size:2rem;
+  color: var(--var-gray-color);
+  cursor: pointer;
+}
