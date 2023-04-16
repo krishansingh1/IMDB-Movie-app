@@ -53,7 +53,10 @@ body {
 }
 
 #nav-list li:first-child {
-  color: white;
+  color: var(--var-primary-color);
   margin-top: 0.8rem;
   font-size: 1.1rem;
+}
+
+#nav-list li span:nth-child(2) {
 }
