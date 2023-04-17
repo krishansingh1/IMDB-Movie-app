@@ -55,7 +55,7 @@ body {
   box-shadow: 1px 3px 10px var(--var-primary-color);
 }
 
-.nav-items {
+.nav-item {
   position: relative;
   left: 14rem;
   color: var(--var-primary-color);
@@ -67,12 +67,12 @@ body {
   border-radius: 5px;
 }
 
-.nav-items:hover {
+.nav-item:hover {
   background-color: var(--var-gray-color);
   cursor: pointer;
 }
 
-.nav-items2 {
+.nav-item2 {
   position: relative;
   left: 2rem;
   color: var(--var-primary-color);
@@ -83,7 +83,7 @@ body {
   font-size: 1rem;
   border-radius: 5px;
 }
-.nav-items2:hover {
+.nav-item2:hover {
   background-color: var(--var-gray-color);
   cursor: pointer;
 }
