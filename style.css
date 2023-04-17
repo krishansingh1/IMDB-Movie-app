@@ -11,6 +11,7 @@
   --var-secondary-color: #000000;
   --var-gray-color: #595e5a;
   --var-logo-color: rgb(245,197,24);
+  --var-font-weight: 600;
   --var-font-family: "Roboto", sans-serif;
 }
 
@@ -134,7 +135,8 @@ aside {
 }
 
 #aside-heading{
-  font-size: 1.5rem;
-  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 0.3rem;
   color: var(--var-logo-color);
 }
