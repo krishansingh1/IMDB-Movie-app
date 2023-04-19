@@ -158,6 +158,10 @@ aside {
   background-color: var(--var-gray-color);
 }
 
+#movie-details{
+  margin-top: 1rem;
+}
+
 #movie-image img{
   width: 13rem;
 }

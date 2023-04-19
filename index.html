@@ -1,87 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://kit.fontawesome.com/a429e5bfb6.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>IMDB App</title>
-  </head>
 
-  <body>
-    <header id="header-container">
-      <div id="logo-image">
-        <img src="./assets/IMDB_Logo_2016.svg.png" alt="" />
-      </div>
-      <nav id="navbar-container">
-        <ul id="nav-list">
-          <li class="nav-item">
-            <span><i class="fa-solid fa-bars"></i><span>Menu</span></span>
-          </li>
-          <li>
-            <input type="text" placeholder="Search IMDB" /><span
-              ><i class="fa-solid fa-magnifying-glass"></i
-            ></span>
-          </li>
-          <li class="nav-item2" id="line-break">
-            <span>Sign Up</span>
-          </li>
-          <li class="nav-item2">
-            <span>Sign In</span>
-          </li>
-          <li>
-            <span><i class="fa-solid fa-user"></i></span>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section id="movie-container">
-        <div class="movie-item">
-          <div id="movie-image">
-            <img
-              src="./assets/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_QL75_UX280_CR0,0,280,414_.jpg"
-              alt="Movie logo"
-            />
-          </div>
-          <div id="movie-info">
-            <span id="movie-star">
-              <i class="fa-solid fa-star"></i>
-            </span>
-            8.5
-            <span id="movie-favourite">
-              <i class="fa-regular fa-star"></i>
-            </span>
-          </div>
-          <p>Spider man into the verse</p>
-          <div>
-            <span>
-              <i class="fa-solid fa-play"></i>
-            </span>
-            Trailer
-            <span>
-              <i class="fa-solid fa-circle-info"></i>
-            </span>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a429e5bfb6.js" crossorigin="anonymous"></script>
+  <title>IMDB App</title>
+</head>
+
+<body>
+  <header id="header-container">
+    <div id="logo-image">
+      <img src="./assets/IMDB_Logo_2016.svg.png" alt="" />
+    </div>
+    <nav id="navbar-container">
+      <ul id="nav-list">
+        <li class="nav-item">
+          <span><i class="fa-solid fa-bars"></i><span>Menu</span></span>
+        </li>
+        <li>
+          <input type="text" placeholder="Search IMDB" /><span><i class="fa-solid fa-magnifying-glass"></i></span>
+        </li>
+        <li class="nav-item2" id="line-break">
+          <span>Sign Up</span>
+        </li>
+        <li class="nav-item2">
+          <span>Sign In</span>
+        </li>
+        <li>
+          <span><i class="fa-solid fa-user"></i></span>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="movie-container">
+      <div class="movie-item">
+        <div id="movie-image">
+          <img src="./assets/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_QL75_UX280_CR0,0,280,414_.jpg"
+            alt="Movie logo" />
         </div>
-        <div class="movie-item"></div>
-        <div class="movie-item"></div>
-        <div class="movie-item"></div>
-        <div class="movie-item"></div>
-        <div class="movie-item"></div>
-      </section>
-    </main>
-    <aside>
-      <div id="aside-heading">Favourites</div>
-      <div id="favourites-container">
-        <div class="favourites-item"></div>
-        <div class="favourites-item"></div>
+        <div id="movie-details">
+          <span id="movie-star">
+            <i class="fa-solid fa-star"></i>
+          </span>
+          <span id="movie-rating">8.5</span>
+          <span id="movie-favourite">
+            <i class="fa-regular fa-star"></i>
+          </span>
+        </div>
+        <p id="movie-name">Spider man into the verse</p>
+        <div>
+          <span id="movie-trailer-button">
+            <i class="fa-solid fa-play"></i>
+          </span>
+          <span id="trailer-name">Trailer</span>
+          <span id="movie-info">
+            <i class="fa-solid fa-circle-info"></i>
+          </span>
+        </div>
       </div>
-    </aside>
-    <footer></footer>
-  </body>
+      <div class="movie-item"></div>
+      <div class="movie-item"></div>
+      <div class="movie-item"></div>
+      <div class="movie-item"></div>
+      <div class="movie-item"></div>
+    </section>
+  </main>
+  <aside>
+    <div id="aside-heading">Favourites</div>
+    <div id="favourites-container">
+      <div class="favourites-item"></div>
+      <div class="favourites-item"></div>
+    </div>
+  </aside>
+  <footer></footer>
+</body>
+
 </html>
