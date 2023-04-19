@@ -12,6 +12,8 @@
   --var-gray-color: #595e5a;
   --var-logo-color: rgb(245, 197, 24);
   --var-faovourite-color: #5799ef;
+  --var-card-color: #1a1a1a;
+  --var-rating-color: #b6bbac;
   --var-font-weight: 600;
   --var-font-family: "Roboto", sans-serif;
 }
@@ -130,7 +132,7 @@ main {
 }
 
 .movie-item {
-  background-color: var(--var-gray-color);
+  background-color: var(--var-card-color);
   width: 13rem;
   height: 26rem;
   margin-top: 1rem;
@@ -151,27 +153,34 @@ aside {
   color: var(--var-logo-color);
 }
 
-.favourites-item{
+.favourites-item {
   margin-top: 1rem;
   width: 25rem;
   height: 8rem;
   background-color: var(--var-gray-color);
 }
 
-#movie-details{
+#movie-details {
   margin-top: 1rem;
+  margin-left: 10px;
 }
 
-#movie-image img{
+#movie-image img {
   width: 13rem;
 }
 
-#movie-star{
+#movie-star {
   color: var(--var-logo-color);
-  margin-left: 1rem;
 }
 
-#movie-favourite{
+#movie-favourite {
+  position: relative;
+  top: -2px;
   color: var(--var-faovourite-color);
   font-size: 0.8rem;
+}
+
+#movie-rating {
+  margin-right: 1rem;
+  color: var(--var-rating-color);
 }
