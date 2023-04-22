@@ -139,12 +139,16 @@ main {
   margin-left: 0.8rem;
 }
 
+#section-divider{
+  
+}
+
 aside {
   display: inline-block;
   width: 30%;
   height: 100%;
   vertical-align: top;
-  /* margin-left: 2rem; */
+  margin-left: -1rem;
 }
 
 #aside-heading {
