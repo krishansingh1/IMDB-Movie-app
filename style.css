@@ -139,8 +139,11 @@ main {
   margin-left: 0.8rem;
 }
 
-#section-divider{
-  
+#section-divider {
+  position: relative;
+  left: -2.5rem;
+  border-left: 0.5px solid var(--var-primary-color);
+  height: 100%;
 }
 
 aside {
