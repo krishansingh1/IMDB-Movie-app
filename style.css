@@ -136,14 +136,15 @@ main {
   width: 13rem;
   height: 26rem;
   margin-top: 1rem;
+  margin-left: 0.8rem;
 }
 
 aside {
   display: inline-block;
-  width: 29.7%;
+  width: 30%;
   height: 100%;
   vertical-align: top;
-  margin-left: 1rem;
+  /* margin-left: 2rem; */
 }
 
 #aside-heading {
