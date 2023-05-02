@@ -198,4 +198,30 @@ aside {
 #movie-rating {
   margin-right: 1rem;
   color: var(--var-rating-color);
+  margin-left: 0.2rem;
+}
+
+#movie-name {
+  margin-top: 1rem;
+  text-align: center;
+  white-space: pre-wrap;
+  word-break: break-word;
+  display: inline-block;
+  letter-spacing: 1.3px;
+  color: var(--var-rating-color);
+}
+
+#trailer-container {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+#movie-trailer-button i {
+  color: var(--var-primary-color);
+  margin-right: 10px;
+}
+
+#trailer-name {
+  font-size: 1rem;
+  color: var(--var-primary-color);
 }
