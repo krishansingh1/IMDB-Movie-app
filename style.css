@@ -211,15 +211,24 @@ aside {
 
 #trailer-container {
   margin-top: 1rem;
-  margin-left: 0.5rem;
+  margin-left: 1.5rem;
 }
 
 #movie-trailer-button i {
   color: var(--var-primary-color);
-  margin-right: 10px;
+  margin-right: 8px;
 }
 
 #trailer-name {
   font-size: 1rem;
   color: var(--var-primary-color);
+}
+
+#movie-info i {
+  color: var(--var-primary-color);
+  margin-left: 7rem;
+  font-size: 1rem;
+  position: relative;
+  top: -1.1rem;
+  
 }
