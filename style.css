@@ -134,7 +134,7 @@ main {
 .movie-item {
   background-color: var(--var-card-color);
   width: 14rem;
-  height: 28rem;
+  height: 29rem;
   margin-top: 1rem;
   margin-left: 2rem;
 }
@@ -189,7 +189,8 @@ aside {
 
 #movie-favorite {
   position: relative;
-  top: -2px;
+  top: -1.1px;
+  left: 1.5rem;
   color: var(--var-favorite-color);
   font-size: 0.8rem;
 }
@@ -210,8 +211,8 @@ aside {
 }
 
 #trailer-container {
-  margin-top: 1rem;
-  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+  margin-left: 2.3rem;
 }
 
 #movie-trailer-button i {
@@ -222,13 +223,4 @@ aside {
 #trailer-name {
   font-size: 1rem;
   color: var(--var-primary-color);
-}
-
-#movie-info i {
-  color: var(--var-primary-color);
-  margin-left: 7rem;
-  font-size: 1rem;
-  position: relative;
-  top: -1.1rem;
-  
 }
