@@ -205,14 +205,13 @@ aside {
   text-align: center;
   white-space: pre-wrap;
   word-break: break-word;
-  display: inline-block;
-  letter-spacing: 1.3px;
+  letter-spacing: 1px;
   color: var(--var-rating-color);
 }
 
 #trailer-container {
   margin-top: 1rem;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
 }
 
 #movie-trailer-button i {
