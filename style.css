@@ -30,7 +30,7 @@ body {
 }
 
 #logo-image img {
-  width: 5rem;
+  width: 6.6rem;
   height: 2.5rem;
 }
 
@@ -122,7 +122,7 @@ body {
 main {
   display: inline-block;
   position: relative;
-  width: 65%;
+  width: 67%;
   height: 100%;
 }
 
@@ -133,7 +133,7 @@ main {
 
 .movie-item {
   background-color: var(--var-card-color);
-  width: 13rem;
+  width: 14rem;
   height: 26rem;
   margin-top: 1rem;
   margin-left: 2rem;
@@ -149,7 +149,7 @@ main {
   top: 10px;
   border-radius: 10px;
   transform: rotateX(-50%);
-  margin-left: 47rem;
+  margin-left: 48rem;
 }
 
 aside {
@@ -157,7 +157,7 @@ aside {
   width: 30%;
   height: 100%;
   vertical-align: top;
-  margin-left: -0.5rem;
+  margin-left: -6rem;
 }
 
 #aside-heading {
