@@ -11,7 +11,7 @@
   --var-secondary-color: #000000;
   --var-gray-color: #595e5a;
   --var-logo-color: rgb(245, 197, 24);
-  --var-faovourite-color: #5799ef;
+  --var-favorite-color: #5799ef;
   --var-card-color: #1a1a1a;
   --var-rating-color: #b6bbac;
   --var-font-weight: 600;
@@ -168,7 +168,7 @@ aside {
   color: var(--var-logo-color);
 }
 
-.favourites-item {
+.favorites-item {
   margin-top: 1rem;
   width: 28.5rem;
   height: 8rem;
@@ -188,10 +188,10 @@ aside {
   color: var(--var-logo-color);
 }
 
-#movie-favourite {
+#movie-favorite {
   position: relative;
   top: -2px;
-  color: var(--var-faovourite-color);
+  color: var(--var-favorite-color);
   font-size: 0.8rem;
 }
 
