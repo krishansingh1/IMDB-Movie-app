@@ -152,7 +152,7 @@ main {
   margin-left: 49.8rem;
 } */
 
-aside {
+/* aside {
   display: inline-block;
   width: 30%;
   height: 100%;
@@ -172,7 +172,7 @@ aside {
   width: 31rem;
   height: 13rem;
   background-color: var(--var-card-color);
-}
+} */
 
 #movie-details {
   margin-top: 1rem;
