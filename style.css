@@ -133,7 +133,6 @@ main {
 }
 
 .movie-item {
-  /* text-align: center; */
   background-color: var(--var-card-color);
   width: 14rem;
   height: 29rem;
