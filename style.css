@@ -129,12 +129,12 @@ main {
 #movie-container {
   display: flex;
   flex-wrap: wrap;
-  margin-left:5rem;
+  margin-left: 2rem;
 }
 
 .movie-item {
   background-color: var(--var-card-color);
-  width: 14rem;
+  width: 12.5rem;
   height: 29rem;
   margin-top: 1rem;
   margin-left: 1rem;
