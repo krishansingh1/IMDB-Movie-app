@@ -138,7 +138,7 @@ main {
   margin-top: 1rem;
   margin-left: 2rem;
 }
-
+/* 
 #movie-container::after {
   content: "";
   width: 0.5px;
@@ -150,7 +150,7 @@ main {
   border-radius: 10px;
   transform: rotateX(-50%);
   margin-left: 49.8rem;
-}
+} */
 
 aside {
   display: inline-block;
