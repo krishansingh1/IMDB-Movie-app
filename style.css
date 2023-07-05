@@ -257,3 +257,9 @@ main {
 .slide[data-active] {
   opacity: 1;
 }
+
+.carousel > ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
