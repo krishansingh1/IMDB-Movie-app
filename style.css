@@ -124,23 +124,24 @@ body {
 main {
   display: inline-block;
   position: relative;
-  width: 100%;
+  width: 67%;
   height: 100%;
 }
 
 #movie-container {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 1rem;
-  margin-bottom: 1rem;
+  margin-left: 1.1rem;
 }
 
 .movie-item {
   background-color: var(--var-card-color);
-  width: 12.5rem;
+  width: 13.4rem;
   height: 29rem;
   margin-left: 1rem;
+  margin-bottom: 1rem;
 }
+
 /* 
 #movie-container::after {
   content: "";
@@ -155,27 +156,27 @@ main {
   margin-left: 49.8rem;
 } */
 
-/* aside {
+aside {
   display: inline-block;
   width: 30%;
   height: 100%;
   vertical-align: top;
-  margin-left: -5rem;
+  margin-left: 1.5rem;
 }
 
 #aside-heading {
   font-size: 1.2rem;
   font-weight: 600;
-  margin-top: 0.84rem;
+  margin-top: 1.15rem;
   color: var(--var-logo-color);
 }
 
 .favorites-item {
   margin-top: 1.2rem;
-  width: 31rem;
-  height: 13rem;
+  width: 26rem;
+  height: 10rem;
   background-color: var(--var-card-color);
-} */
+}
 
 #movie-details {
   margin-top: 1rem;
@@ -242,27 +243,31 @@ main {
 /* Carousel Styling */
 
 .carousel {
-  width: 100vw;
   height: 100vh;
   position: relative;
   top: 1.5rem;
-  margin-left: 5rem;
+  margin-left: 2.1rem;
 }
 
 .slide {
   position: absolute;
   inset: 0;
   opacity: 0;
+  transition: 200ms opacity ease-in-out;
+  transition-delay: 200ms;
 }
 
 .slide > img {
   display: block;
+  height: 83%;
   object-fit: cover;
   object-position: center;
 }
 
 .slide[data-active] {
   opacity: 1;
+  z-index: 1;
+  transition-delay: 0ms;
 }
 
 .carousel > ul {
@@ -274,10 +279,23 @@ main {
 .carousel-button {
   position: absolute;
   background: none;
-  font-size: 3rem;
-  /* background: black; */
+  font-size: 2.5rem;
   top: 50%;
   color: rgba(255, 255, 255, 0.5);
   z-index: 2;
   transform: translateY(-100%);
+  cursor: pointer;
+  border-radius: .25rem;
+  padding: 0 .5rem;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.carousel-button:hover,
+.carousel-button:focus{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-button.next{
+  left: 54.15rem;
 }
