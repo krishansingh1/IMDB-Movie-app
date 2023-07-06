@@ -10,6 +10,7 @@
       src="https://kit.fontawesome.com/a429e5bfb6.js"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js" defer></script>
     <title>IMDB App</title>
   </head>
 
@@ -24,9 +25,14 @@
             <span><i class="fa-solid fa-bars"></i><span>Menu</span></span>
           </li>
           <li>
-            <input type="text" placeholder="Search IMDB" /><span
-              ><i class="fa-solid fa-magnifying-glass"></i
-            ></span>
+            <div class="row">
+              <input
+                type="text"
+                id="input-box"
+                placeholder="Search IMDB"
+                autocomplete="off"
+              /><span><i class="fa-solid fa-magnifying-glass"></i></span>
+            </div>
           </li>
           <li class="nav-item2" id="line-break">
             <span>Sign Up</span>
@@ -42,34 +48,34 @@
     </header>
     <main>
       <!-- Main Caraousel -->
-      <section aria-label="Caraousel">
-        <div class="carousel">
-          <button class="carousel-button prev">
+      <section aria-label="Caraousel" id="">
+        <div class="carousel" data-carousel>
+          <button class="carousel-button prev" data-carousel-button="prev">
             <i class="fa-solid fa-chevron-left"></i>
           </button>
-          <button class="carousel-button next">
+          <button class="carousel-button next" data-carousel-button="next">
             <i class="fa-solid fa-chevron-right"></i>
           </button>
-          <ul>
+          <ul data-slides>
             <li class="slide" data-active>
               <img
                 src="https://m.media-amazon.com/images/M/MV5BNjMxYjViZWYtZWZmNy00ZjVmLWJjMzAtNTIxNTFkZTRmMmU4XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._CR7,159,2124,1195_QL75_UX1000_CR0,0,1000,563_.jpg"
                 alt="Movie #1"
               />
             </li>
-            <li class="slide"data-active>
+            <li class="slide">
               <img
                 src="https://m.media-amazon.com/images/M/MV5BNGZmZDI5NzItYWUzYy00MjcwLTk3MWQtYjg2YmZkMzBhYzlhXkEyXkFqcGdeQXVyMTUzMTg2ODkz._CR731,91,2436,1370_QL75_UY563_CR0,0,1000,563_.jpg"
                 alt="Movie #2"
               />
             </li>
-            <li class="slide" data-active>
+            <li class="slide">
               <img
                 src="https://m.media-amazon.com/images/M/MV5BNmI0YTQ0NDYtYmY5My00MzA4LThhNGUtZDk1ODljMGViZjE3XkEyXkFqcGdeQWplZmZscA@@._V1_QL40_QL75_UX1000_CR0,0,1000,563_.jpg"
                 alt="Movie #3"
               />
             </li>
-            <li class="slide" data-active>
+            <li class="slide">
               <img
                 src="https://m.media-amazon.com/images/M/MV5BMmEyYTgxZDItYmVmMy00YWFkLThmODktYzQ1OGRiN2VmMTcyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._CR21,53,3077,1731_QL75_UX1000_CR0,0,1000,563_.jpg"
                 alt="Movie #4"
@@ -77,6 +83,7 @@
             </li>
           </ul>
         </div>
+        <div></div>
       </section>
 
       <!-- Movie cards -->
@@ -110,17 +117,15 @@
         <div class="movie-item"></div>
         <div class="movie-item"></div>
         <div class="movie-item"></div>
-        <div class="movie-item"></div>
-        <div class="movie-item"></div>
       </section>
     </main>
-    <!-- <aside>
-      <div id="aside-heading">Favorites</div>
+    <aside>
+      <div id="aside-heading">Favourites</div>
       <div id="favorites-container">
         <div class="favorites-item"></div>
         <div class="favorites-item"></div>
       </div>
-    </aside> -->
+    </aside>
     <footer></footer>
   </body>
 </html>
