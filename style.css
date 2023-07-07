@@ -91,9 +91,11 @@ body {
 }
 
 #line-break {
-  position: relative;
-  left: -0.5rem;
-  border: 1px solid var(--var-primary-color);
+  width: 1px;
+  height: 2rem;
+  background-color: var(--var-primary-color);
+  margin: 6.5px 25px;
+  
 }
 
 .nav-item2 {
