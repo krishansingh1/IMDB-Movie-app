@@ -161,7 +161,7 @@ aside {
   width: 30%;
   height: 100%;
   vertical-align: top;
-  margin-left: 1.5rem;
+  margin-left: 0.8rem;
 }
 
 #aside-heading {
@@ -285,17 +285,17 @@ aside {
   z-index: 2;
   transform: translateY(-100%);
   cursor: pointer;
-  border-radius: .25rem;
-  padding: 0 .5rem;
+  border-radius: 0.25rem;
+  padding: 0 0.5rem;
   background-color: rgba(0, 0, 0, 0.3);
 }
 
 .carousel-button:hover,
-.carousel-button:focus{
+.carousel-button:focus {
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.carousel-button.next{
+.carousel-button.next {
   left: 51.9rem;
 }
