@@ -51,7 +51,7 @@ body {
   position: relative;
   background: #fff;
   border-radius: 0.5rem;
-  z-index: 2 !important;
+  z-index: 2;
   margin-left: 8rem;
   padding-left: 1rem;
 }
@@ -66,14 +66,14 @@ body {
   flex: 1;
   height: 20px;
   background: transparent;
-  border:0;
+  border: 0;
   outline: 0;
   color: var(--var-gray-color);
   font-family: var(--var-font-family);
   font-size: 1rem;
 }
 
-button .fa-solid{
+.search-button {
   width: 25px;
   color: var(--var-gray-color);
   font-size: 18px;
