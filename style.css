@@ -46,15 +46,14 @@ body {
   list-style-type: none;
 }
 
-.search-box{
-   width: 40rem;
-   background: #fff;
-   border-radius: 0.5rem;
-   z-index: 2 !important;
-}
-
-.row{
-  
+.search-box {
+  width: 40.5rem;
+  position: relative;
+  background: #fff;
+  border-radius: 0.5rem;
+  z-index: 2 !important;
+  margin-left: 8rem;
+  padding-left: 1rem;
 }
 
 /* #nav-list li input {
@@ -73,14 +72,13 @@ body {
   box-shadow: 1px 3px 10px var(--var-primary-color);
 } */
 
-
-
 .nav-item {
-  position: relative;
-  left: 6rem;
+  position: absolute;
+  left: 9rem;
+  top: 13px;
   color: var(--var-primary-color);
-  padding-top: 10px;
-  padding-bottom: -5rem;
+  padding-top: 8px;
+  padding-bottom: 0.5rem;
   padding-left: 10px;
   padding-right: 10px;
   font-size: 1rem;
@@ -92,19 +90,19 @@ body {
   cursor: pointer;
 }
 
-#line-break::before {
-  content: "";
+#line-break {
   position: relative;
-  left: -2rem;
+  left: -0.5rem;
   border: 1px solid var(--var-primary-color);
 }
 
 .nav-item2 {
-  position: relative;
-  left: 2rem;
+  position: absolute;
+  left: 58rem;
+  top: 13px;
   color: var(--var-primary-color);
-  padding-top: 10px;
-  padding-bottom: -5rem;
+  padding-top: 8px;
+  padding-bottom: 0.5rem;
   padding-left: 10px;
   padding-right: 10px;
   font-size: 1rem;
@@ -112,6 +110,24 @@ body {
 }
 
 .nav-item2:hover {
+  background-color: var(--var-gray-color);
+  cursor: pointer;
+}
+
+.nav-item3 {
+  position: absolute;
+  left: 63rem;
+  top: 13px;
+  color: var(--var-primary-color);
+  padding-top: 8px;
+  padding-bottom: 0.5rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.nav-item3:hover {
   background-color: var(--var-gray-color);
   cursor: pointer;
 }
@@ -126,10 +142,10 @@ body {
   color: var(--var-gray-color);
 }
 
-#nav-list li:nth-child(5) {
+.user-icon {
   position: relative;
   top: -1.5px;
-  left: 8rem;
+  left: 21rem;
   font-size: 2rem;
   color: var(--var-gray-color);
   cursor: pointer;
@@ -146,7 +162,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   margin-left: 1.1rem;
-  margin-top:-2rem;
+  margin-top: -2rem;
 }
 
 .movie-item {
@@ -262,7 +278,6 @@ aside {
   position: relative;
   top: 1.5rem;
   margin-left: 2.1rem;
-  z-index: 0 !important;
 }
 
 .slide {
@@ -278,7 +293,6 @@ aside {
   height: 83%;
   object-fit: cover;
   object-position: center;
-  z-ind
 }
 
 .slide[data-active] {
