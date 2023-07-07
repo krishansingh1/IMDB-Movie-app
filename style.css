@@ -45,7 +45,17 @@ body {
   list-style-type: none;
 }
 
-#nav-list li input {
+.search-box{
+   width: 40rem;
+   background: #fff;
+   border-radius: 0.5rem;
+}
+
+.row{
+  display: flex;
+}
+
+/* #nav-list li input {
   width: 40rem;
   height: 2.5rem;
   border-radius: 0.5rem;
@@ -54,12 +64,14 @@ body {
   color: var(--var-gray-color);
   font-family: var(--var-font-family);
   font-size: 0.95rem;
-}
+} */
 
-#nav-list li input:focus {
+/* #nav-list li input:focus {
   outline: none;
   box-shadow: 1px 3px 10px var(--var-primary-color);
-}
+} */
+
+
 
 .nav-item {
   position: relative;
