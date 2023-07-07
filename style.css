@@ -73,6 +73,13 @@ body {
   font-size: 1rem;
 }
 
+button .fa-solid{
+  width: 25px;
+  color: var(--var-gray-color);
+  font-size: 18px;
+  cursor: pointer;
+}
+
 .nav-item {
   position: absolute;
   left: 9rem;
