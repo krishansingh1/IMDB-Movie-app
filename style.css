@@ -73,11 +73,6 @@ body {
   font-size: 1rem;
 }
 
-.row input:focus {
-  outline: none;
-  box-shadow: 1px 3px 10px var(--var-primary-color);
-}
-
 .nav-item {
   position: absolute;
   left: 9rem;
