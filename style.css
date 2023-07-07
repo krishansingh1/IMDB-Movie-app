@@ -82,11 +82,13 @@ body {
 
 .result-box ul {
   border-top: 1px solid var(--var-gray-color);
-  padding: 15px 20px;
+  padding: 3px 18px;
 }
 
 .result-box ul li {
   list-style: none;
+  border-radius: 5rem;
+  padding: 12px 3px;
 }
 
 .nav-item {
