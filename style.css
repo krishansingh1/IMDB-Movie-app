@@ -59,24 +59,24 @@ body {
 .row {
   display: flex;
   align-items: center;
-  padding: 10px 20px;
+  padding: 10px 10px;
 }
 
-/* #nav-list li input {
-  width: 40rem;
-  height: 2.5rem;
-  border-radius: 0.5rem;
-  margin-left: 7rem;
-  padding-left: 1rem;
+.row input {
+  flex: 1;
+  height: 20px;
+  background: transparent;
+  border:0;
+  outline: 0;
   color: var(--var-gray-color);
   font-family: var(--var-font-family);
-  font-size: 0.95rem;
-} */
+  font-size: 1rem;
+}
 
-/* #nav-list li input:focus {
+.row input:focus {
   outline: none;
   box-shadow: 1px 3px 10px var(--var-primary-color);
-} */
+}
 
 .nav-item {
   position: absolute;
