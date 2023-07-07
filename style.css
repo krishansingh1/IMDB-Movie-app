@@ -82,13 +82,21 @@ body {
 
 .result-box ul {
   border-top: 1px solid var(--var-gray-color);
-  padding: 3px 18px;
+  padding-top: 16px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 18px;
 }
 
 .result-box ul li {
   list-style: none;
-  border-radius: 5rem;
-  padding: 12px 3px;
+  padding: 12px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.result-box ul li:hover{
+  background: #e9f3ff;
 }
 
 .nav-item {
