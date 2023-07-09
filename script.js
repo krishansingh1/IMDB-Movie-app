@@ -38,7 +38,11 @@ inputBox.onkeyup = function () {
         apiUrl = `http://www.omdbapi.com/?t=${input}&apikey=53207a9e`;
     }
 
-    $.get(apiUrl)
+    $.get(apiUrl, (data)=>{
+        for (let title of data){
+            console.log(title);
+        }
+    })
 }
 
 
