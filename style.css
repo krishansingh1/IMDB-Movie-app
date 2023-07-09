@@ -247,6 +247,7 @@ aside {
 }
 
 #movie-star {
+  font-size: 1.2rem;
   color: var(--var-logo-color);
 }
 
@@ -255,7 +256,7 @@ aside {
   top: -1.1px;
   left: 1.5rem;
   color: var(--var-favorite-color);
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 #movie-rating {
@@ -275,9 +276,9 @@ aside {
 
 #trailer-container {
   width: 7rem;
-  margin: 1rem 2.8rem;
+  margin: 0.8rem 2.8rem;
   padding-left:20px;
-  padding-top: 5px;
+  padding-top: 6px;
   padding-bottom: 5px;
   border-radius: 5px;
 }
