@@ -29,3 +29,8 @@ buttons.forEach((button) => {
 //</ul>
 
 const resultBox = document.querySelector(".result-box");
+const inputBox = document.getElementById("input-box");
+
+
+
+
