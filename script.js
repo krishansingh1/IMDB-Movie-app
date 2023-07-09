@@ -30,7 +30,9 @@ buttons.forEach((button) => {
 
 const resultBox = document.querySelector(".result-box");
 const inputBox = document.getElementById("input-box");
+const apiUrl = `http://www.omdbapi.com/?t=${inputBox.value}&apikey=53207a9e`
 
+console.log(apiUrl);
 
 inputBox.onkeyup = function () {
     let result = [];
