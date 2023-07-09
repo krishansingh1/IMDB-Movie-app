@@ -5,14 +5,14 @@ const slide = document.querySelector(".slide");
 
 buttons.forEach((button) => {
     button.addEventListener("click", () => {
-        console.log(button);
+        // console.log(button);
         const offSet = button.dataset.carouselButton === "next" ? 1 : -1;
         const slides = button.closest("[data-carousel]").querySelector("[data-slides]");
         // console.log(slides.children);
         const activeSlide = slides.querySelector("[data-active]");
         // console.log(activeSlide);
         let newIndex = [...slides.children].indexOf(activeSlide) + offSet;
-        console.log(newIndex);
+        // console.log(newIndex);
         if (newIndex < 0) newIndex = slides.children.length - 1;
         if (newIndex >= slides.children.length) newIndex = 0;
         slides.children[newIndex].dataset.active = true;
@@ -30,13 +30,16 @@ buttons.forEach((button) => {
 
 const resultBox = document.querySelector(".result-box");
 const inputBox = document.getElementById("input-box");
-const apiUrl = `http://www.omdbapi.com/?t=${inputBox.value}&apikey=53207a9e`
-
-console.log(apiUrl);
+let apiUrl;
 
 inputBox.onkeyup = function () {
     let result = [];
     let input = inputBox.value;
+    if (input.length) {
+        apiUrl = `http://www.omdbapi.com/?t=${inputBox.value}&apikey=53207a9e`;
+    }
+
+    $
 }
 
 
