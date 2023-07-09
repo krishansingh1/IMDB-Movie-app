@@ -274,9 +274,19 @@ aside {
 }
 
 #trailer-container {
-  margin-top: 1.5rem;
-  margin-left: 3.5rem;
+  width: 7rem;
+  margin: 1rem 2.8rem;
+  padding-left:20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
 }
+
+#trailer-container:hover{
+  background: var(--var-gray-color);
+  cursor: pointer;
+}
+
 
 #movie-trailer-button i {
   color: var(--var-primary-color);
@@ -286,11 +296,6 @@ aside {
 #trailer-name {
   font-size: 1rem;
   color: var(--var-primary-color);
-}
-
-#trailer-container:hover{
-  padding: 10px 5px;
-  background: var(--var-gray-color);
 }
 
 
