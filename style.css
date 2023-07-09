@@ -275,7 +275,7 @@ aside {
 
 #trailer-container {
   margin-top: 1.5rem;
-  margin-left: 2.3rem;
+  margin-left: 3.5rem;
 }
 
 #movie-trailer-button i {
@@ -287,6 +287,12 @@ aside {
   font-size: 1rem;
   color: var(--var-primary-color);
 }
+
+#trailer-container:hover{
+  padding: 10px 5px;
+  background: var(--var-gray-color);
+}
+
 
 .my-slider-progress {
   background: #ccc;
