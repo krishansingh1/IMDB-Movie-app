@@ -28,3 +28,4 @@ buttons.forEach((button) => {
 //    <li>Node Js</li>
 //</ul>
 
+const resultBox = document.querySelector(".result-box");
