@@ -32,6 +32,12 @@ const resultBox = document.querySelector(".result-box");
 const inputBox = document.getElementById("input-box");
 
 
+inputBox.onkeyup = function () {
+    let result = [];
+    let input = inputBox.value;
+}
+
+
 
 
 
