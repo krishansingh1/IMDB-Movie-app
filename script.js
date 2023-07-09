@@ -33,7 +33,6 @@ const inputBox = document.getElementById("input-box");
 let apiUrl;
 
 inputBox.onkeyup = function () {
-    let result = [];
     let input = inputBox.value;
     if (input.length) {
         apiUrl = `http://www.omdbapi.com/?t=${input}&apikey=53207a9e`;
