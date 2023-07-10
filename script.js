@@ -22,15 +22,10 @@ buttons.forEach((button) => {
 
 // Search Bar
 
-//<ul>
-//    <li>JavaScript</li>
-//    <li>React Js</li>
-//    <li>Node Js</li>
-//</ul>
-
 const resultBox = document.querySelector(".result-box");
 const inputBox = document.getElementById("input-box");
 let apiUrl;
+let title
 
 inputBox.onkeyup = function () {
     let input = inputBox.value;
@@ -41,9 +36,11 @@ inputBox.onkeyup = function () {
     $.get(apiUrl, (data) => {
         let title = data.Title;
         console.log(title);
-
         if (title == undefined) {
-            
+            setTimeout(() => {
+                location.reload();
+            }, 10000)
+
         }
     })
 }
