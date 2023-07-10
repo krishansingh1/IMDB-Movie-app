@@ -2,58 +2,69 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Movie Page</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <script
       src="https://kit.fontawesome.com/a429e5bfb6.js"
       crossorigin="anonymous"
     ></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="script.js" defer></script>
+    <title>Movie Page</title>
   </head>
+
   <body>
     <header id="header-container">
-        <div id="logo-image">
-          <img src="./assets/IMDB_Logo_2016.svg.png" alt="IMDB Logo" />
-        </div>
-        <nav id="navbar-container">
-          <ul id="nav-list">
-            <li class="nav-item">
-              <span><i class="fa-solid fa-bars"></i><span>Menu</span></span>
-            </li>
-            <li>
-              <div class="search-box">
-                <div class="row">
-                  <input
-                    type="text"
-                    id="input-box"
-                    placeholder="Search IMDB"
-                    autocomplete="off"
-                  />
-                  <button class="search-button">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                  </button>
-                </div>
-                <div class="result-box"></div>
+      <div id="logo-image">
+        <img src="./assets/IMDB_Logo_2016.svg.png" alt="IMDB Logo" />
+      </div>
+      <nav id="navbar-container">
+        <ul id="nav-list">
+          <li class="nav-item">
+            <span><i class="fa-solid fa-bars"></i><span>Menu</span></span>
+          </li>
+          <li>
+            <div class="search-box">
+              <div class="row">
+                <input
+                  type="text"
+                  id="input-box"
+                  placeholder="Search IMDB"
+                  autocomplete="off"
+                />
+                <button class="search-button">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
               </div>
-            </li>
-            <span id="line-break"></span>
-            <li class="nav-item2">
-              <span>Sign Up</span>
-            </li>
-            <li class="nav-item3">
-              <span>Sign In</span>
-            </li>
-            <li class="user-icon">
-              <span><i class="fa-solid fa-user"></i></span>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <main>
+              <div class="result-box"></div>
+            </div>
+          </li>
+          <span id="line-break"></span>
+          <li class="nav-item2">
+            <span>Sign Up</span>
+          </li>
+          <li class="nav-item3">
+            <span>Sign In</span>
+          </li>
+          <li class="user-icon">
+            <span><i class="fa-solid fa-user"></i></span>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Main Caraousel -->
+      <section aria-label="Caraousel" id="">
         
-      </main>
-
+    </main>
+    <aside>
+      <div id="aside-heading">Favourites</div>
+      <div id="favorites-container">
+        <div class="favorites-item"></div>
+      </div>
+    </aside>
+    <footer></footer>
   </body>
 </html>
