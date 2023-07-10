@@ -35,13 +35,11 @@ let apiUrl;
 inputBox.onkeyup = function () {
     let input = inputBox.value;
     if (input.length) {
-        apiUrl = `http://www.omdbapi.com/?t=${input}&apikey=53207a9e`;
+        apiUrl = `http://www.omdbapi.com/?s=${input}&apikey=53207a9e`;
     }
 
     $.get(apiUrl, (data)=>{
-        for (let title of data){
-            console.log(title);
-        }
+        
     })
 }
 
