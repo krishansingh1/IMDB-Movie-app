@@ -36,7 +36,11 @@ inputBox.onkeyup = function () {
     $.get(apiUrl, (data) => {
         let title = data.Title;
         console.log(title);
-        
+        if (title === undefined) {
+            setTimeout(() => {
+                location.reload();
+            }, 5000);
+        }
     })
 }
 
