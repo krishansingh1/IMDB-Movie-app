@@ -381,3 +381,16 @@ aside {
   display: flex;
   justify-content: space-between;
 }
+
+#movie-name-info > p{
+  color: var(--var-primary-color);
+  font-size: 3rem;
+}
+
+#movie-year{
+  display: flex;
+}
+
+#movie-year p{
+  margin-right: 10px;
+}
