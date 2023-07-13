@@ -389,8 +389,15 @@ aside {
 
 #movie-year{
   display: flex;
+  color: var(--var-primary-color);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
 }
 
 #movie-year p{
   margin-right: 10px;
+}
+
+#movie-ratings{
+  display: flex;
 }
