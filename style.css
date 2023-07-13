@@ -372,5 +372,12 @@ aside {
 }
 
 #movie-section{
-  
+  border: 1px solid red;
+  margin-left: 3rem;
+}
+
+#movie-info-container{
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
 }
