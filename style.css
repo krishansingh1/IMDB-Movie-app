@@ -16,6 +16,7 @@
   --var-rating-color: #b6bbac;
   --var-font-weight: 600;
   --var-font-family: "Roboto", sans-serif;
+  --ipt-font-family: Roboto,Helvetica,Arial,sans-serif;
 }
 
 body {
@@ -246,7 +247,7 @@ aside {
   width: 14rem;
 }
 
-#movie-star {
+.movie-star {
   font-size: 1.2rem;
   color: var(--var-logo-color);
 }
@@ -370,7 +371,7 @@ aside {
 }
 
 #movie-section {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-left: 3rem;
 }
 
@@ -394,6 +395,7 @@ aside {
 
 #movie-year p {
   margin-right: 15px;
+  color: var(--var-rating-color);
 }
 
 #movie-year p:nth-child(1)::after {
@@ -420,9 +422,38 @@ aside {
 
 #movie-ratings {
   display: flex;
-  margin-top: 15px;
+  margin-top: 1rem;
+  color: var(--var-rating-color);
 }
 
 #movie-ratings div {
-  margin-right: 10px;
+  margin-right: 2rem;
+}
+
+#movie-ratings div > p {
+  font-size: 0.95rem;
+  font-family: var(--ipt-font-family);
+  line-height: 2.2rem;
+  letter-spacing: .15em;
+}
+
+.rating-highlight{
+  color: var(--var-primary-color);
+  font-size: 1.6rem;
+}
+
+.rating-2{
+ position: relative;
+ top: -3.5px;
+}
+
+#movie-favorite-2{
+  margin-top: 3px;
+  margin-left: 1.5rem;
+  color: var(--var-favorite-color);
+}
+
+#movie-favorite-2 i{
+  font-size: 1.4rem;
+  cursor: pointer;
 }
