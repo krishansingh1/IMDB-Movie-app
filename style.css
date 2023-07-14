@@ -398,6 +398,10 @@ aside {
   margin-right: 5px;
 }
 
-/* #movie-ratings{
+#movie-ratings{
   display: flex;
-} */
+}
+
+#movie-ratings div{
+  margin-right: 10px;
+}
