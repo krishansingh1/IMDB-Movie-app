@@ -462,4 +462,7 @@ aside {
   margin-bottom: 2rem;
 }
 
-
+#movie-genre{
+  display: flex;
+  flex: 1;
+}
