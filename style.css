@@ -463,6 +463,15 @@ aside {
 }
 
 #movie-genre{
+  width: 13.5rem;
   display: flex;
-  flex: 1;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+#movie-genre p{
+  color: var(--var-primary-color);
+  border: 0.1px solid var(--var-rating-color);
+  border-radius: 10px;
+  padding: 3px 10px;
 }
