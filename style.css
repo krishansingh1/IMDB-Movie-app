@@ -434,7 +434,7 @@ aside {
   font-size: 0.95rem;
   font-family: var(--ipt-font-family);
   line-height: 2.2rem;
-  letter-spacing: .15em;
+  letter-spacing: 0.15em;
 }
 
 .rating-highlight{
