@@ -25,7 +25,7 @@ buttons.forEach((button) => {
 const resultBox = document.querySelector(".result-box");
 const inputBox = document.getElementById("input-box");
 let apiUrl;
-let title
+let title;
 
 inputBox.onkeyup = function () {
     let input = inputBox.value;
