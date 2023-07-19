@@ -22,6 +22,13 @@ buttons.forEach((button) => {
 
 // Search Bar
 
+{/* <ul>
+                  <li>JavaScript</li>
+                  <li>React JS</li>
+                  <li>Node JS</li>
+                  <li>CSS</li>
+                </ul> */}
+
 const resultBox = document.querySelector(".result-box");
 const inputBox = document.getElementById("input-box");
 let apiUrl;
