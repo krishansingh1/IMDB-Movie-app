@@ -29,8 +29,9 @@ buttons.forEach((button) => {
     <li>CSS</li>
 </ul> */}
 
-const resultBox = document.querySelector(".result-box");
 const inputBox = document.getElementById("input-box");
+const resultBox = document.querySelector(".result-box");
+
 let apiUrl;
 let title;
 
