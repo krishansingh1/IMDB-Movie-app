@@ -79,6 +79,9 @@ body {
   color: var(--var-gray-color);
   font-size: 18px;
   cursor: pointer;
+  margin-right:1rem;
+  margin-left: -0.5rem;
+  margin-top: 2px;
 }
 
 .result-box ul {
