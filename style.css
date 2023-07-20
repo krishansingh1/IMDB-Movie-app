@@ -461,8 +461,18 @@ aside {
   cursor: pointer;
 }
 
+#movie-container-info{
+  display: flex;
+}
+
 #movie-image-2 {
-  margin-bottom: 2rem;
+  margin-bottom: 0.7rem;
+  margin-right: 5rem;
+}
+
+#movie-description-container{
+    width: 75%;
+    margin-top: 2rem;
 }
 
 #movie-genre {
@@ -523,7 +533,7 @@ aside {
 #movie-cast-name{
   display: flex;
   margin-left: 1.5rem;
-  width: 54%;
+  width: 60%;
   justify-content: space-between;
 }
 
@@ -534,7 +544,7 @@ aside {
   height: 3px;
   background-color: var(--var-primary-color);
   border-radius: 50%;
-  margin-left: 6.5px;
+  margin-left: 10px;
   margin-top: 9.5px;
 }
 
