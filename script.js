@@ -32,21 +32,11 @@ buttons.forEach((button) => {
 const inputBox = document.getElementById("input-box");
 const resultBox = document.querySelector(".result-box");
 
-let apiUrl;
-let title;
 
-inputBox.onkeyup = function () {
-    let input = inputBox.value;
-    if (input.length) {
-        apiUrl = `http://www.omdbapi.com/?t=${input}&apikey=53207a9e`;
-    }
+let apiUrl = `http://www.omdbapi.com/?t=tenet&apikey=53207a9e`;
 
-    $.get(apiUrl, (data) => {
-        console.log(data.Poster);
-        let title = data.Title;
-        console.log(title);
-    })
-}
+
+
 
 
 
