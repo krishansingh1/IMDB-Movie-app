@@ -130,7 +130,7 @@ body {
 
 .nav-item2 {
   position: absolute;
-  left: 58rem;
+  left: 60rem;
   top: 13px;
   color: var(--var-primary-color);
   padding-top: 8px;
@@ -148,7 +148,7 @@ body {
 
 .nav-item3 {
   position: absolute;
-  left: 64rem;
+  left: 70rem;
   top: 13px;
   color: var(--var-primary-color);
   padding-top: 8px;
@@ -370,7 +370,7 @@ aside {
 }
 
 .carousel-button.next {
-  left: 57rem;
+  left: 56.9rem;
 }
 
 #movie-section {
